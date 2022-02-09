@@ -6,15 +6,21 @@ Easily send and receive files using magic-wormnole from a docker container.
 
 Download this repository.
 
-`git clone https://github.com/7db9a/magic-wormhole-container.git`
+```
+git clone https://github.com/7db9a/magic-wormhole-container.git
+```
 
 Enter the `magic-wormhole-container`.
 
-`cd magic-wormhole-container`
+```
+cd magic-wormhole-container
+```
 
 Build the docker image.
 
-`docker build -t magic-wormhole:0.0.1 .`
+```
+docker build -t magic-wormhole:0.0.1 .
+```
 
 ### Usage
 
