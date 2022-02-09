@@ -10,7 +10,7 @@ Download this repository.
 git clone https://github.com/7db9a/magic-wormhole-container.git
 ```
 
-Enter the `magic-wormhole-container`.
+Enter the `magic-wormhole-container` directory.
 
 ```
 cd magic-wormhole-container
