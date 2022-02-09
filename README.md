@@ -21,10 +21,12 @@ Build the docker image.
 Run and enter the container
 
 
-`docker run -it \
+```
+docker run -it \
 -v $(pwd):/root/magic-wormhole \
 --entrypoint \
-/bin/bash magic-wormhole:0.0.1`
+/bin/bash magic-wormhole:0.0.1
+```
 
 Now inside, use magic-wormhole.
 
