@@ -6,7 +6,7 @@ Easily send and receive files using magic-wormnole from a docker container.
 
 Download this repository.
 
-`git clone https://github.com/7db9a/magic-wormhole-contaner.git`
+`git clone https://github.com/7db9a/magic-wormhole-container.git`
 
 Enter the `magic-wormhole-container`.
 
