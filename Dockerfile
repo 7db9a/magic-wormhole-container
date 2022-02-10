@@ -58,3 +58,5 @@ RUN nix-channel --update; nix-env -iA nixpkgs.nix
 RUN nix-env -iA nixpkgs.magic-wormhole
 
 WORKDIR /root/magic-wormhole
+
+ENTRYPOINT ["wormhole"]
