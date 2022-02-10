@@ -24,22 +24,20 @@ docker build -t magic-wormhole:0.0.1 .
 
 ### Usage
 
-Run and enter the container
-
+Send.
 
 ```
 docker run -it \
 -v $(pwd):/root/magic-wormhole \
---entrypoint \
-/bin/bash magic-wormhole:0.0.1
+magic-wormhole:0.0.1 \
+send
 ```
 
-Now inside, use magic-wormhole.
+Receive.
 
-To send files.
-
-`wormhole send FILE_OR_DIR`
-
-To receive files.
-
-`wormhole receive`
+```
+docker run -it \
+-v $(pwd):/root/magic-wormhole \
+magic-wormhole:0.0.1 \
+receive
+```
