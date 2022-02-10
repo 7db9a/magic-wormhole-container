@@ -35,19 +35,19 @@ docker build -t magic-wormhole:0.0.1 .
 Make the command script executable.
 
 ```
-chmod +x cmd.sh
+chmod +x docker-cmd.sh
 ```
 
-Copy to your preferred path. Below is just an example as you may not have this path.
+Copy the script your preferred path. Below is just an example as you may not have this path.
 
 ```
-cp cmd.sh ~/.local/bin/wormhole
+cp docker-cmd.sh ~/.local/bin/wormhole
 ```
 
 Or if you just want it to work, but it's not ideal for several reasons such as the need to use `sudo`
 
 ```
-sudo cp cmd.sh /bin/wormhole
+sudo cp docker-cmd.sh /bin/wormhole
 ```
 
 ### Usage
