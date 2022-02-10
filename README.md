@@ -8,7 +8,9 @@ To learn more about Magic Wormhole:
 
 ### Caveats
 
- Works great great, but the docker image is a little overboard as it uses nix-pkgs to install magic-wormhole. I had it handy because I use this formulation to install other packages on wormhole related projects and I prefer nix-pkgs to do it.
+Works great great, but the docker image is a little overboard as it uses `nix-pkgs` to install magic-wormhole. I had it handy because I use this formulation to install other packages on wormhole related projects and I prefer `nix-pkgs` to do it.
+
+If you use docker with `sudo`, you'll have to edit `cmd.sh` and add `sudo` before the `docker run` command, or whatever works for you.
 
 ### Setup
 
