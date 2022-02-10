@@ -55,7 +55,7 @@ sudo cp cmd.sh /bin/wormhole
 Send.
 
 ```
-wormhole send
+wormhole send FILE_OR_DIR
 ```
 
 Receive.
