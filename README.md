@@ -1,14 +1,14 @@
 # magic-wormhole container
 
-Easily send and receive files using Magic Wormhole from a docker container.
+Easily send and receive files using a containerized Magic Wormhole.
 
 To learn more about Magic Wormhole:
 
 `https://github.com/magic-wormhole/magic-wormhole`
 
-## Caveat
+### Caveats
 
-The docker image is a little overboard as it uses nix-pkgs to install magic-wormhole. I had it handy because I use this formulation to install other packages on wormhole related projects and I prefer nix-pkgs to do it.
+ Works great great, but the docker image is a little overboard as it uses nix-pkgs to install magic-wormhole. I had it handy because I use this formulation to install other packages on wormhole related projects and I prefer nix-pkgs to do it.
 
 ### Setup
 
