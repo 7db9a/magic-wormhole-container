@@ -39,8 +39,6 @@ cd magic-wormhole-container
 docker build -t magic-wormhole:0.0.1 .
 ```
 
-If you use docker with `sudo`, you'll have to edit `docker-cmd.sh` and add `sudo` before the `docker run` command, or whatever works for you.
-
 **Make the command script executable.**
 
 ```
