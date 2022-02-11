@@ -1,11 +1,24 @@
 # magic-wormhole-container
 
-Easily send and receive files using a containerized Magic Wormhole.
+Easily and securely send and receive files using a containerized Magic Wormhole. No private keys or other things to setup. The sender and receiver only needs Magic Wormhole installed.
 
 To learn more about Magic Wormhole:
 
 `https://github.com/magic-wormhole/magic-wormhole`
 
+## Usage
+
+**Send.**
+
+```
+wormhole send FILE_OR_DIR
+```
+
+**Receive.**
+
+```
+wormhole receive
+```
 ## Setup
 
 **Download this repository.**
@@ -44,20 +57,6 @@ Or if you just want it to work, but it's not ideal for several reasons such as t
 
 ```
 sudo cp docker-cmd.sh /bin/wormhole
-```
-
-## Usage
-
-**Send.**
-
-```
-wormhole send FILE_OR_DIR
-```
-
-**Receive.**
-
-```
-wormhole receive
 ```
 
 ## Caveats
