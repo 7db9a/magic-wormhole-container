@@ -48,10 +48,10 @@ chmod +x docker-cmd.sh
 **Copy the script to your preferred path.** Below is just an example as you may not have this path.
 
 ```
-mkdir ~/.local`
+mkdir ~/.local
 ```
 ```
-mkdir ~/.local/bin`
+mkdir ~/.local/bin
 ```
 
 ```
