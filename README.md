@@ -60,8 +60,9 @@ cp docker-cmd.sh ~/.local/bin/wormhole
 
 **Add to path**
 
+
 ```
-export PATH=$PATH:~/.local/bin
+echo "export PATH=$PATH:~/.local/bin" >> ~/.profile
 ```
 
 Restart your terminal.
