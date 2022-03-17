@@ -58,6 +58,8 @@ mkdir ~/.local/bin
 cp docker-cmd.sh ~/.local/bin/wormhole
 ```
 
+Restart your terminal.
+
 Or if you just want it to work, but it's not ideal for several reasons such as the need to use `sudo`
 
 ```
