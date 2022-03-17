@@ -48,6 +48,10 @@ chmod +x docker-cmd.sh
 **Copy the script to your preferred path.** Below is just an example as you may not have this path.
 
 ```
+mkdir -p ~/.local/bin`
+```
+
+```
 cp docker-cmd.sh ~/.local/bin/wormhole
 ```
 
